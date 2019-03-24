@@ -4,7 +4,7 @@
   "author": "Alberto Jerez <albertoj04@gmail.com>",
   "main": "dist/vue-read-progress.umd.js",
   "unpkg": "dist/vue-read-progress.umd.min.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "repository": {
     "type": "git",
