@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build:example": "vue-cli-service build --dest example --name vue-read-progress src/main.js",
+    "build:docs": "vue-cli-service build --dest docs --name vue-read-progress src/main.js",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --target lib --name vue-read-progress ./src/components/index.js"
   },
