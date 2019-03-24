@@ -5,6 +5,11 @@ Vue.js plugin for scroll position with a progress bar indicator
   <a href="https://www.npmjs.com/package/vue-read-progress"><img alt="NPM Version" src="https://img.shields.io/npm/v/vue-read-progress.svg?style=for-the-badge"></a> 
 </p>
 
+## Demo
+
+https://ajerez.github.io/vue-read-progress/
+
+
 ## Installation
 
 #### With npm (Recommended)
