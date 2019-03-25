@@ -15,7 +15,7 @@ https://ajerez.github.io/vue-read-progress/
 
 #### With npm (Recommended)
 ```bash
-npm install vue-read-progress
+npm i vue-read-progress
 ```
 
 #### yarn
@@ -34,7 +34,7 @@ yarn add vue-read-progress
 </template>
 
 <script>
-  import VueReadProgress from "@/components/VueReadProgress.vue";
+  import VueReadProgress from "vue-read-progress";
 
   export default {
     components: {
@@ -53,7 +53,7 @@ yarn add vue-read-progress
 </template>
 
 <script>
-  import VueReadProgress from "@/components/VueReadProgress.vue";
+  import VueReadProgress from "vue-read-progress";
 
   export default {
     components: {
