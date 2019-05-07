@@ -1,13 +1,7 @@
 # vue-read-progress
 Vue.js plugin for scroll position with a progress bar indicator
 
-<div align="center">
-  <a href="https://www.npmjs.com/package/vue-read-progress"><img alt="NPM Version" src="https://img.shields.io/npm/v/vue-read-progress.svg?style=for-the-badge"></a> 
-
-  <a href="https://bundlephobia.com/result?p=vue-read-progress"><img alt="Size" src="https://img.shields.io/bundlephobia/minzip/vue-read-progress.svg?style=for-the-badge"></a>
-
-  <a href="https://twitter.com/alberto_jrz"><img alt="Twitter" src="https://img.shields.io/static/v1.svg?label=TWITTER&message=follow&color=blue&style=for-the-badge"></a> 
-</div>
+[![NPM version](https://badgen.net/npm/v/vue-read-progress?color=blue)](https://npmjs.com/package/vue-read-progress) [![NPM downloads](https://badgen.net/npm/dm/vue-read-progress?color=blue)](https://npmjs.com/package/vue-read-progress) [![Size](https://img.shields.io/bundlephobia/minzip/vue-read-progress.svg)](https://bundlephobia.com/result?p=vue-read-progress) [![twitter](https://img.shields.io/static/v1.svg?label=twitter&message=follow&color=blue)](https://twitter.com/alberto_jrz) [![donate](https://badgen.net/badge/support%20me/donate/?color=blue)](https://ko-fi.com/ajerez)
 
 ## Demo
 
