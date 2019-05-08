@@ -60,6 +60,28 @@ yarn add vue-read-progress
 </script>
 ```
 
+#### Gridsome (SSR) (https://gridsome.org/)
+
+```vue
+<template>
+  <ClientOnly>
+    <read-progress></read-progress>
+  </ClientOnly>
+  <!-- Your page content -->
+</template>
+
+<script>
+  export default {
+    components: {
+      ReadProgress: () =>
+        import ('vue-read-progress')
+        .then(m => m.default)
+        .catch()
+    }
+  };
+</script>
+```
+
 ## Available Options (All optional)
 
 | Property | Type   | Default value | Prop Description                       |
