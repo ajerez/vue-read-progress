@@ -35,17 +35,27 @@ export default {
     };
   },
   created() {
-    window.addEventListener("scroll", this.updateReadProgress);
+    if (process.browser) {
+      window.addEventListener("scroll", this.updateReadProgress);
+    }
   },
   beforeDestroy() {
-    window.removeEventListener("scroll", this.updateReadProgress);
+    if (process.browser) {
+      window.removeEventListener("scroll", this.updateReadProgress);
+    }
   },
   methods: {
     updateReadProgress() {
-      this.readProgress = this.currentScrollPosition(window.scrollY);
+      if (process.browser) {
+        this.readProgress = this.currentScrollPosition(window.scrollY);
+      }
     },
     currentScrollPosition(position) {
-      return (position / (document.body.clientHeight - document.documentElement.clientHeight)) * 100;
+      if (process.browser) {
+        return (position / (document.body.clientHeight - document.documentElement.clientHeight)) * 100;
+      } else {
+        return 0;
+      }
     }
   }
 };
